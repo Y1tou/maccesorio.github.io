@@ -1,0 +1,120 @@
+*{
+    font-family: 'Raleway', 'sans-serif';
+    padding: 0;
+    margin: 0;
+}
+#header{
+    background-color: darkturquoise;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px 10px 40px;
+}
+#menu{
+    width: 3%;
+    justify-content: space-between;
+}
+#logo{
+    display: flex;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+}
+#carro_lista{
+    display: flex;
+    justify-content: center;
+}
+/**#menu>a{
+    color: white;
+    text-decoration: none;
+    font-size:  1rem;
+    cursor: pointer;
+    border-top: 5px transparent solid;
+    padding: 40px 0 40px 0;
+}
+#menu>a:hover{
+    border-top: 5px #EB6767 solid;
+}
+#redes{
+    display: flex;
+    justify-content: center;
+}
+.red{
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: bold;
+    height: 45px;
+}
+.red:hover{
+    background-color: #000000;
+    color: #ffffff;
+    transition-duration: 0.5s;
+}
+.red>img{
+    width: 22px;
+}**/
+.perrogato{
+    display: flex;
+    justify-content: center;
+}
+.perrogato>img{
+    width: 60%;
+}
+#contenido{
+    background-color: darkturquoise;
+    height: 100%;
+}
+.contenedor{
+    max-width: 100rem;
+    margin: 0 auto;
+}
+.nuestros-productos{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+    font-weight: 600;
+}
+.productos{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+ }
+ .producto{
+    background-color: rgb(212, 156, 36);
+    margin: 2rem;
+    padding: 2rem;
+    cursor: pointer;
+ }
+ .producto-blanco{
+     background-color: white;
+     height: 15rem;
+     object-fit: contain;
+     padding: 1rem;
+ }
+ .producto-precio,
+ .producto-nombre{
+     color: white;
+     font-family: Arial, Helvetica, sans-serif;
+     text-align: center;
+ }
+ .producto-precio{
+     font-size: 2.5rem;
+     font-weight: 500;
+ }
+ .producto-nombre{
+     font-size: 3rem;
+     font-weight: 800;
+ }
+ #salto_blanco{
+    background-color: #ffffff;
+    height: 30px;
+ }
+ #producto-informacion1{
+    display: flex;
+    align-items: center;
+ }
